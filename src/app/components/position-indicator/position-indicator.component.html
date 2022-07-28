@@ -1,9 +1,15 @@
 <app-gradient-overlay class="foreground"></app-gradient-overlay>
 <div
-    class="d-flex justify-content-center dev-fill background"
+    class="dev-fill background"
     [style.height.px]="408">
     <app-floor-label
-        class="fade-up"
-        label="1">
+        #upperLabel
+        [class]="upperLabelClass"
+        [label]="currentFloor">
+    </app-floor-label>
+    <app-floor-label
+        #lowerLabel
+        [class]="lowerLabelClass"
+        [label]="nextFloor">
     </app-floor-label>
 </div>

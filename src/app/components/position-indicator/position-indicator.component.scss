@@ -8,23 +8,37 @@
 }
 
 .background {
-    position: absolute;
+    position: relative;
     width: 402px;
     height: 408px;
     z-index: 1;
 }
 
-.fade-up {
+// --- OUT TOP --- //
+.out-top {
     position: relative;
-    animation: color-me-in 1s infinite; /* other keywords like "infinite alternate" can be useful here */
+    animation: out-top 2s;
 }
 
-@keyframes color-me-in {
-    /* You could think of as "step 1" */
+@keyframes out-top {
     0% {
         bottom: 0%;
     }
-    /* You could think of as "step 2" */
+    100% {
+        bottom: 100%;
+    }
+}
+
+// --- IN BOTTOM --- //
+.in-bottom {
+    position: relative;
+    animation: in-bottom 2s;
+}
+
+@keyframes in-bottom {
+    0% {
+        bottom: 0%;
+    }
     100% {
         bottom: 100%;
     }
