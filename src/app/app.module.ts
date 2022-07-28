@@ -7,6 +7,7 @@ import { PiContainerComponent } from './components/pi-container/pi-container.com
 import { PositionIndicatorComponent } from './components/position-indicator/position-indicator.component';
 import { FloorLabelComponent } from './components/floor-label/floor-label.component';
 import { ArrowPlaceholderComponent } from './components/arrow-placeholder/arrow-placeholder.component';
+import { GradientOverlayComponent } from './components/gradient-overlay/gradient-overlay.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ArrowPlaceholderComponent } from './components/arrow-placeholder/arrow-
     PiContainerComponent,
     PositionIndicatorComponent,
     FloorLabelComponent,
-    ArrowPlaceholderComponent
+    ArrowPlaceholderComponent,
+    GradientOverlayComponent
   ],
   imports: [
     BrowserModule,
