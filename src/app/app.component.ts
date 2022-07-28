@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'xpu-pi-poc';
+  /**
+   * NOTES:
+   * - outer container size: 426 x 600
+   * - PI container size: 426 x 400
+   */
 }
