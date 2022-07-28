@@ -1,6 +1,31 @@
+@font-face {
+    font-family: "TKEType-BoldItalic";
+    src: local("TKEType-BoldItalic"), url(./assets/fonts/TKEType-BoldItalic.ttf) format("truetype");
+}
+@font-face {
+    font-family: "TKEType-Regular";
+    src: local("TKEType-Regular"), url(./assets/fonts/TKEType-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "TKEType-Book";
+    src: local("TKEType-Book"), url(./assets/fonts/TKEType-Book.ttf) format("truetype");
+}
+@font-face {
+    font-family: "TKEType-Light";
+    src: local("TKEType-Light"), url(./assets/fonts/TKEType-Light.ttf) format("truetype");
+}
+
+* {
+    color: white;
+    font-family: "TKEType-Regular";
+}
 
 html {
-    background-color: #595360
+    background-color: #595360;
+}
+
+.dev-fill {
+    background-color: #32293b
 }
 /* Importing Bootstrap SCSS file. */
-@import '~bootstrap/scss/bootstrap';
+@import "~bootstrap/scss/bootstrap";
